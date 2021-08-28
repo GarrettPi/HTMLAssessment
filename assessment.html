@@ -10,6 +10,45 @@
     <p><blockquote><em><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em></blockquote></p>
     <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <h2>TABLE</h2>
+    <table>
+      <caption>Scores by quarter</caption>
+      <tr>
+        <th rowspan="2">Team Name</th>
+        <th colspan="2">First Half</th>
+        <th colspan="2">Second Half</th>
+        <th rowspan="2">Final</th>
+      </tr>
+      <tr>
+        <td>Q1</td>
+        <td>Q2</td>
+        <td>Q3</td>
+        <td>Q4</td>
+      </tr>
+      <tr>
+        <td>New England</td>
+        <td>7</td>
+        <td>9</td>
+        <td>3</td>
+        <td>3</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>Denver</td>
+        <td>0</td>
+        <td>6</td>
+        <td>3</td>
+        <td>0</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <th>Total</th>
+        <th>7</th>
+        <th>15</th>
+        <th>6</th>
+        <th>3</th>
+        <th>31</th>
+      </tr>
+    </table>
     <h2>LIST</h2>
     <ul>
       <li><img src="https://upload.wikimedia.org/wikipedia/en/b/b9/New_England_Patriots_logo.svg" width="100"><a href="https://www.patriots.com/">New England Patriots</a></li>
@@ -62,7 +101,7 @@
       <label for="amateur">College </label>
       <input type="radio" name="prefer" id="professional">
       <label for="amateur">Professional </label><br>
-      <input type="submit" id="submit" form="form1" value="Submit">
+      <input type="button" id="submit" form="form1" value="Submit Query">
     </form>
   </body>
 </html>
