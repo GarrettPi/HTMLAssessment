@@ -11,23 +11,23 @@ th {
 table,th,td {
   border: 1px solid black;
   border-color: black;
+  text-align: center;
 }
+
 thead th {
   background-color: white;
 }
+
 tfoot th {
   background-color: white;
 }
+
 tr:nth-child(even){
   background-color: #cbcbcb;
 }
+
 tr:nth-child(odd){
   background-color: #adadad;
-}
-
-
-td {
-  text-align: center;
 }
 
 ul {
@@ -79,7 +79,7 @@ ul {
 
 }
 
-ol  li:first-child{
+ol li:first-child{
   font-weight: bold;
 }
 
@@ -92,7 +92,8 @@ blockquote {
   background-color: #5a5a5a;
   color: white;
 }
-img {
+
+[alt~=Logo] {
   /* visibility: hidden; */
   display: none;
 }
